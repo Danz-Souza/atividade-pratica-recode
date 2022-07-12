@@ -1,0 +1,19 @@
+@import url("global.css");
+
+.tamanhodatela{
+    height: 90vh;
+}
+
+span{
+    color: white;
+}
+
+.cordobotao{
+    background-color: #F49F0A;
+    font-weight: bold;
+    color: #121212;
+}
+
+.cordobotao:hover{
+    background-color: #F08700;  
+}

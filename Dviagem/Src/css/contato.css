@@ -1,0 +1,14 @@
+@import url("global.css");
+
+.tamanhodatela{
+    height: 85vh;
+}
+
+.border{
+    border-color: #F49F0A !important; 
+}
+
+.cordobotao{
+    background-color: #F49F0A;
+}
+

@@ -1,0 +1,27 @@
+body{
+    background-color: #121212;
+}
+
+.active{
+    color: #F49F0A !important;
+}
+
+.navbar-dark{
+    color: white !important;
+}
+
+.bgnav{
+    background-color: #121212;
+}
+
+#cadastre-se {
+    color: #121212;
+    background-color: #F49F0A;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+#cadastre-se:hover{
+    background-color: #F08700;
+}

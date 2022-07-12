@@ -1,0 +1,36 @@
+@import url("global.css");
+
+
+
+.inscrevase{
+    background-color: #F49F0A;
+    color: #000000;
+    font-weight: bold;
+}
+
+.inscrevase:hover{
+    background-color: #F08700;
+}
+
+.preco{
+    background-color: #F49F0A;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.subtitulo span{
+    font-size: 5px !important;
+}
+
+@media (max-width: 575.98px){
+    .emailbanner h1{
+        text-align: center;
+    }
+
+    .inscrevase{
+        width: 100%;
+    }
+}
