@@ -1,6 +1,6 @@
 Algoritmo "Dviagem"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Autor(a)    : Daniel Souza da Silva
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Autor(a)    : Daniel Souza
 // Data atual  : 11/07/2022.
 Var
    nome,sobrenome,email,senha,pais,destino,destino1: vetor [1..3] de CARACTERE
@@ -12,7 +12,7 @@ Var
 Inicio
    paris <- "paris"
    rio <- "rio de janeiro"
-   japao <- "japão"
+   japao <- "japÃ£o"
    escreval("===================")
    Escreval ("=AGENCIA DE VIAGENS Dviagem")
    escreval("===================")
@@ -21,7 +21,7 @@ Inicio
       escreval ("[2] - CADASTRAR DESTINO")
       leia (opcao)
       limpatela
-      escreval ("=ESCOLHA UMA OPÇÃO VÁLIDA=")
+      escreval ("=ESCOLHA UMA OPÃ‡ÃƒO VÃLIDA=")
    ate (opcao=1) ou (opcao=2)
    LIMPATELA
    escolha opcao
@@ -36,25 +36,25 @@ Inicio
          leia (email[i])
          escreval ("Digite sua senha",i,":" )
          leia (senha[i])
-         escreval ("Qual seu país?",i,":" )
+         escreval ("Qual seu paÃ­s?",i,":" )
          leia (pais[i])
-         escreval ("De qual cidade você é?",i,":" )
+         escreval ("De qual cidade vocÃª Ã©?",i,":" )
          leia (destino[i])
-         escreval ("Para qual cidade você vai?",i,":" )
+         escreval ("Para qual cidade vocÃª vai?",i,":" )
          leia (destino1[i])
          LIMPATELA
-         escreval ("=ESCOLHA UMA OPÇÃO VÁLIDA=")
+         escreval ("=ESCOLHA UMA OPÃ‡ÃƒO VÃLIDA=")
       fimpara
       LIMPATELA
       escreval ("=CLIENTES CADASTRADOS=")
       escreval ("======================")
       se (destino1[i] = paris) entao
-         escreval(nome[i]," Com o destino ", destino1[i]," irá custar: R$ 1200")
+         escreval(nome[i]," Com o destino ", destino1[i]," irÃ¡ custar: R$ 1200")
       senao se (destino1[i] = rio) entao
-         escreval(nome[i]," Com o destino ", destino1[i]," irá custar: R$ 450")
+         escreval(nome[i]," Com o destino ", destino1[i]," irÃ¡ custar: R$ 450")
       FIMSE
       se (destino1[i] = japao) entao
-         escreval(nome[i]," Com o destino ", destino1[i]," irá custar: R$ 2500")
+         escreval(nome[i]," Com o destino ", destino1[i]," irÃ¡ custar: R$ 2500")
       FIMSE
    caso 2
       escreval ("=CADASTRO DE DESTINO=")
