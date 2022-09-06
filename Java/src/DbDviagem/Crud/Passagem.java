@@ -1,7 +1,7 @@
 package DbDviagem.Crud;
 
 import java.time.LocalDateTime;
-import java.util.Scanner;
+
 
 public class Passagem {
     private int idDestino;
